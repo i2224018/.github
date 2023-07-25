@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#menuwrap ul{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+span{
+    padding-left: 8em;
+}
+
+p1 a{
+    display: inline;
+    position: fixed;
+    z-index: 2;
+    font-family: 'Playfair Display', serif;
+    font-size: 180%;
+    text-decoration-line: none;
+    color: #dfdfdf;
+}
+
+p2{
+    font-size: 1000%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#menu{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: fixed;
+    background-color: #000000d4;
+    width: 100%;
+
+}
+
+
+#menu li{
+
+    width: 150px;
+    text-align: center;
+
+}
+
+
+#menu li a{
+
+    height: 50px;
+    color: #848282;
+    font-size: 150%;
+    text-decoration: none;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    transition: 0.5s;
+}
+
+#menu li a:hover{
+    font-size: 190%;
+    color: #ffffff;
+    background: #000000;
+}
